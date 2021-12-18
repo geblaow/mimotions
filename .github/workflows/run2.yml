@@ -10,15 +10,15 @@ on:
       user:
         description: '用户名'
         required: true
-        default: ''
+        default: '17607148205'
       pwd:
         description: '密码'
         required: true
-        default: ''
+        default: 'qwer1324'
       step:
         description: '步数'
         required: false
-        default: '0'
+        default: '21456'
 jobs:
   build:
     runs-on: ubuntu-latest
